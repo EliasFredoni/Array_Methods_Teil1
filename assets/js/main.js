@@ -87,10 +87,8 @@ console.log(deutscheGerichte);
 //deutscheGerichte[5];
 
 
-let nichtGut = deutscheGerichte.shift(deutscheGerichte[1, 3]);
-console.log(nichtGut); // ?? Funktioniert nicht wie es soll
-
-// console.log(deutscheGerichte.shift())
+let nichtGut = [deutscheGerichte.shift(), deutscheGerichte.shift(), deutscheGerichte.shift()];
+console.log(nichtGut);
 
 /*----------------LEV 1.9--------------------*/
 
