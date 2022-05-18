@@ -53,7 +53,7 @@ console.log(meinText1.split());
 console.log(meinText2.split(""));
 console.log(meinText3.split(" "));
 
-/*---------------LEV 1.5-------------------*/
+/*---------------LEV 1.5.1-------------------*/
 
 let songs = ["Bohemian Rhapsody", "Stairway To Heaven", "Hotel California"];
 console.log(songs);
@@ -69,8 +69,29 @@ console.log(artists);
 let besteFussballerAllerZeiten = ["Die besten fünf Fußballer", "Füge drei Torhüter hinzu"];
 console.log(besteFussballerAllerZeiten);
 
-let fussballer = besteFussballerAllerZeiten.push("Linoel Messi");
+let fussballer = besteFussballerAllerZeiten.push("Linoel Messi", "Robert Lewandowski", "Mohamed Salah", "Karim Benzema", "Kevin De Bruyne");
+let torhüter = besteFussballerAllerZeiten.push("Gerd Müller", "Robert Lewandowski", "Klaus Fischer");
 console.log(besteFussballerAllerZeiten);
+
+/*---------------LEV 1.5.2--------------------*/
+
+let heroUndEnemy = [["Batman", "The Joker"], ["Professor X, Magneto"], ["Thor, Loki"]];
+console.log(heroUndEnemy);
+
+let heroUndGegner = heroUndEnemy.push(["Spiderman", "Lex Luthor"], ["Wolverine", "Sabretooth"], ["Ghost Rider", "Mephisto"]);
+console.log(heroUndEnemy);
+
+/*
+let heroUndEnemy1 = ["Batman, The Joker"];
+let heroUndEnemy2 = ["Professor X, Magneto"];
+let heroUndEnemy3 = ["Thor, Loki"];
+
+let heroUndGegner1 = ["Spiderman", "Lex Luthor"];
+let heroUndGegner2 = ["Wolverine", "Sabretooth"];
+let heroUndGegner3 = ["Ghost Rider", "Mephisto"];
+
+console.log([heroUndEnemy1], [heroUndGegner2], [heroUndGegner3], [heroUndGegner1], [heroUndGegner2], [heroUndGegner3]);
+*/
 
 /*-----------------LEV 1.6---------------------*/
 
@@ -131,25 +152,6 @@ let Img2 = array.slice(2, 9);
 console.log(Img1);
 console.log(Img2);
 
-/*---------------LEV 5.2--------------------*/
-
-let heroUndEnemy = [["Batman", "The Joker"], ["Professor X, Magneto"], ["Thor, Loki"]];
-console.log(heroUndEnemy);
-
-let heroUndGegner = heroUndEnemy.push(["Spiderman", "Lex Luthor"], ["Wolverine", "Sabretooth"], ["Ghost Rider", "Mephisto"]);
-console.log(heroUndEnemy);
-
-/*
-let heroUndEnemy1 = ["Batman, The Joker"];
-let heroUndEnemy2 = ["Professor X, Magneto"];
-let heroUndEnemy3 = ["Thor, Loki"];
-
-let heroUndGegner1 = ["Spiderman", "Lex Luthor"];
-let heroUndGegner2 = ["Wolverine", "Sabretooth"];
-let heroUndGegner3 = ["Ghost Rider", "Mephisto"];
-
-console.log([heroUndEnemy1], [heroUndGegner2], [heroUndGegner3], [heroUndGegner1], [heroUndGegner2], [heroUndGegner3]);
-*/
 
 
 
